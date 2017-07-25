@@ -1,0 +1,80 @@
+
+.page_head .big_head{
+	height:111px;
+}
+.content{
+	font-size:11px;
+	color:#555;
+}
+.content .head_shop{
+	height:150px;
+	background-color:#b40107;
+}
+.head_shop .header_center{
+	width:1200px;
+	height:150px;
+	margin:0 auto;
+}
+.header_center .shop_logo{
+	padding-left:91px;
+	padding-right:73px;
+	background:url(../img/s-pic1.jpg) no-repeat;
+	background-origin:content-box;
+}
+.shop_name a{
+	display:inline-block;
+	width:1036px;
+	height:119px;
+	text-indent:-9999px;
+}
+.header_center .shop_nav{
+	width:1200px;
+	height:31px;
+	font-size:12px;
+	line-height:30px;
+}
+.shop_nav .shop_index{
+	width:108px;	
+	color:#fff;
+	text-align:center;
+	background-color:#7f0019;
+}
+.shop_nav .type_nav{
+	width:987px;
+	background-color:#a70323;
+}
+a[data-a="color"] i{
+	display:inline-block;
+	width:13px;
+	height:5px;
+	background:url(../img/sico.jpg) 0 0 no-repeat;
+}
+.type_nav div:first-child{
+	padding:0 27px 0 25px;
+}
+.type_nav div:first-child a:first-of-type{
+	color:#fff;
+	padding:0;
+}
+.type_nav a{
+	float:left;
+	color:#fff;
+	padding:0 27px 0 25px;
+}
+.shop_nav .collect_shop{
+	width:105px;
+	height:31px;
+	line-height:31px;
+	background-color:#d91339;
+}
+.collect_shop a:first-child{
+	color:#fff;
+	padding:0 16px 0 10px;
+}
+.collect_shop i{
+	width:18px;
+	height:17px;
+	margin-top:7px;
+	overflow:hidden;
+	background:url(../img/sico.jpg) 0 -8px no-repeat;
+}

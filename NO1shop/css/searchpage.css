@@ -1,0 +1,599 @@
+body{
+	font-size:11px;
+}
+
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+.content a{
+	font-size:11px;
+	color:#333;
+}
+.page_head .big_head{
+	height:111px;
+}
+.content .search_result{
+	height:161px;
+	padding-top:8px;
+	margin-bottom:10px;
+}
+.search_result .result_h{
+	margin-bottom:19px;
+}
+.result_left .result_leftt{
+	padding-left:27px;
+}
+.result_leftt .red_btn{
+	width:11px;
+	height:11px;
+	margin-top:8px;
+	margin-right:16px;
+	background:url(../img/dico.png) 0 0 no-repeat;
+	overflow:hidden;
+}
+.result_leftt .reslt_a{
+	line-height:19px;
+	padding-top:4px;
+	margin-right:17px;
+}
+.result_leftt .circl_btn{
+	width:5px;
+	height:9px;
+	margin-top:9px;
+	margin-right:7px;
+	background:url(../img/dico.png) 0 -13px no-repeat;
+	overflow:hidden;
+}
+.result_left .search_form{
+	width:138px;
+	height:20px;
+	padding:0 19px 0 6px;
+	border:1px solid #d4d4d4;
+	position:relative;
+}
+.search_form .search_form_input{
+	width:138px;
+	height:20px;
+	line-height:20px;
+	outline:none;
+	font-size:11px;
+}
+.search_form .search_ico_input{
+	width:13px;
+	height:13px;
+	background:url(../img/sico.png) 0 -24px no-repeat;
+	overflow:hidden;
+	position:absolute;
+	left:144px;
+	top:4px;
+}
+.search_result .add_disp{
+	width:1200px;
+	height:120px;
+}
+.add_disp .add_disp_item{
+	display:block;
+	height:120px;
+}
+.content .result_type{
+	width:1200px;
+	margin-bottom:10px;
+}
+.result_type .type_lineone{
+	height:35px;
+	border:1px solid #e5e5e5;
+}
+.type_lineone .about_type{	
+	width:113px;
+	height:35px;
+	background:url(../img/detail_bg.png) no-repeat;
+	text-align:right;
+	padding-right:16px;
+	line-height:35px;
+	border-left:1px solid #e5e5e5;
+}
+.type_lineone .type_kind{
+	width:1067px;
+	height:35px;
+	line-height:34px;
+	text-indent:17px;
+	word-spacing:76px;
+	border-right:1px solid #e5e5e5;
+	background:url(../img/detail_bg_r.png) 0 0 repeat-x;
+}
+.result_type .trademark{
+	width:1196px;
+	height:119px;
+	border:2px solid #e5e5e5;
+}
+.trademark .trademark_h{
+	width:112px;
+	height:119px;
+	line-height:33px;
+	padding-right:16px;
+	background-color:#f8f8f8;
+	border-right:1px solid #e5e5e5;
+	text-align:right;
+}
+.trademark .trademark_list{
+	padding:6px 0 0 13px;
+}
+.trademark_list .trademark_item{
+	width:945px;
+	border:1px solid #e5e5e5;
+	border-bottom:none;
+	border-right:none;
+	margin-right:14px;
+}
+.trademark_item .trade_disp{
+	width:104px;
+	text-align:center;
+	padding:8px 0 9px;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.trademark_list .trademark_other{
+}
+.multiple{
+	width:40px;
+	height:18px;
+	background-color:#fbfbfb;
+	border:1px solid #e5e5e5;
+	border-radius:2px;
+	line-height:18px;
+	text-align:center;
+	margin-right:4px;
+}
+.trademark_other .trademark_more{
+	line-height:15px;
+}
+.trademark_more i{
+	width:10px;
+	height:5px;
+	overflow:hidden;
+	background:url(../img/dico.png) 0 -51px no-repeat;
+}
+.result_type .trademark a,.type_lineone .about_type a{
+	color:#999;
+}
+.type_line{
+	color:#999;
+}
+.type_line .type_line_title{
+	width:113px;
+	height:33px;
+	padding-right:16px;
+	text-align:right;
+	line-height:32px;
+	overflow:hidden;
+	border-left:1px solid #eaeaea;
+	border-right:1px solid #eaeaea;
+	background:url(../img/detail_bg_r.png) 0 -36px repeat-x;
+}
+.type_line .like_kind{
+	width:1002px;
+	height:29px;
+	padding:5px 51px 0 15px;
+	word-spacing:34px;
+	line-height:23px;
+	border-right:1px solid #eaeaea;
+	overflow:hidden;
+	background:url(../img/detail_bg_r.png) 0 -70px repeat-x;
+}
+.like_kind .ico_hot{
+	width:19px;
+	height:9px;
+	background:url(../img/dico.png) 0 -40px no-repeat;
+	margin-top:7px;
+	overflow:hidden;
+} 
+.like_kind .multiple{
+	color:#999;
+}
+.type_line .nobackground{
+	background-image:none;
+	background-color:#f8f8f8;
+	border-bottom:1px solid #eaeaea;	
+}
+.type_line .forheight{
+	height:28px;
+	background-color:#fff;
+}
+.search_content{
+	width:1200px;
+}
+.search_content .search_mod{
+	border:1px solid #eaeaea;
+	margin-bottom:29px;
+}
+.search_mod .mod_list_top{
+	width:1199px;
+	height:40px;
+	border-bottom:1px solid #eaeaea;
+	background-color:#fafafa;
+}
+.mod_list_top .list_top_left{
+	height:40px;
+	overflow:hidden;
+}
+.mod_list_top .mod_list_item{
+	line-height:40px;
+	padding:0 10px 0 7px;
+	border-right:1px solid #eaeaea;
+}
+.mod_list_top .mod_list_item_bg{
+	background-color:#f27e56;
+	color:#fff;
+	padding:0 10px 0 12px;
+}
+.mod_list_item .mod_list_text{
+	margin-right:2px;
+}
+.mod_list_top .mod_list_item:hover{
+	background-color:#f27e56;
+	color:#fff;
+}
+.mod_list_item .mod_list_ico{
+	width:6px;
+	height:8px;
+	margin-top:16px;
+	overflow:hidden;
+	background:url(../img/dico.png) 0 -57px no-repeat;
+}
+.mod_list_item .mod_list_ico2{
+	width:8px;
+	height:9px;
+	margin-top:16px;
+	overflow:hidden;
+	background:url(../img/dico.png) 0 -67px no-repeat;
+}
+.list_top_left .price_section{
+	width:87px;
+	height:30px;
+	padding:10px 14px 0 10px;
+	border-right:1px solid #eaeaea;	
+}
+.price_section .price_text{
+	width:36px;
+	height:17px;
+	border:1px solid #eaeaea;
+	background-color:#fff;
+	outline:none;
+}
+.mod_list_top .list_top_right{
+	height:40px;
+	padding-right:18px;
+	overflow:hidden;
+	border-right:1px solid #eaeaea;
+}
+.list_top_right .list_store{
+	padding-top:13px;
+	line-height:17px;
+}
+.list_store i{
+	width:16px;
+	height:16px;
+	background:url(../img/dico.png) 0 -78px no-repeat;
+	overflow:hidden;
+}
+.list_store span{
+	padding-right:10px;
+}
+.list_top_right .pic_displayb{
+	height:40px;
+	background-color:#f27e56;
+	color:#fff;
+	line-height:40px;
+	padding:0 10px 0 12px;
+	border-left:1px solid #eaeaea;
+	border-right:1px solid #eaeaea;
+}
+.pic_displayb i{
+	width:11px;
+	height:11px;
+	margin-top:15px;
+	margin-right:4px;
+	background:url(../img/dico.png) 0 -96px no-repeat;
+	overflow:hidden;
+}
+.list_top_right .list_page{
+	padding:0 22px 0 14px;
+	line-height:42px;
+}
+.list_page span{
+	color:red;
+	padding-right:7px;
+}
+.list_top_right .list_btn_pre,.list_top_right .list_btn_next{
+	width:8px;
+	height:14px;
+	margin-top:15px;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.list_top_right .list_btn_pre{
+	margin-right:20px;
+	background:url(../img/dico.png) -21px -85px no-repeat;	
+}
+.list_top_right .list_btn_next{
+	background:url(../img/dico.png) -30px -85px no-repeat;	
+}
+.mo_list_bottom{
+	height:26px;
+	padding:15px 0 0 7px;
+	line-height:11px;
+	border:1px solid #dddddd;
+	border-top:none;
+}
+.mo_list_bottom div{
+	float:left;
+}
+.mo_list_bottom .select{
+	float:left;
+	width:9px;
+	height:9px;
+	border:1px solid #aaaaaa;
+	margin-right:7px;
+}
+.mo_list_bottom .select_text{
+	margin-right:14px;
+}
+.search_result_dip{
+	width:1200px;
+	margin:0 auto;
+}
+.search_result_dip .product_dip{
+	width:230px;
+	height:380px;
+	margin:0 12px 47px 0;
+}
+.product_dip .product_pic{
+	width:230px;
+	height:230px;
+	position:relative;
+	margin-bottom:9px;
+}
+.product_pic .produt_tag{
+	position:absolute;
+	width:36px;
+	height:30px;
+	left:185px;
+	top:2px;
+}
+.produt_tag .tag_bg{
+	width:36px;
+	height:30px;
+	background-color:#ff5c4d;
+	border-radius:10px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.produt_tag .tag_text{
+	color:#fff;
+	font-size:13px;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px;
+}
+.product_dip .product_price{
+	height:25px;	
+	padding-left:5px;
+}
+.product_price .price_tag{
+	padding-top:5px;
+	font-size:9px;
+	line-height:20px;
+	color:#e60012;
+}
+.product_price .now_price{
+	font-size:15px;
+	line-height:25px;
+	color:#e60012;
+	padding-right:9px;
+}
+.product_price .original_price{
+	font-size:11px;
+	line-height:20px;
+	padding:5px 4px 0 0;
+	color:#cccccc;
+}
+.product_price .free_ship{
+	width:27px;
+	height:16px;
+	margin-top:6px;
+	background:url(../img/dico.png) -21px -67px no-repeat;
+}
+.product_dip .produt_name{
+	line-height:17px;
+	width:202px;
+	padding-left:5px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.product_dip .active_info{
+	width:150px;
+	height:14px;
+	padding:3px 0 0 5px;
+	color:#ff5c4d;
+	line-height:15px;
+	margin-bottom:7px;
+}
+.active_info .active_sale{
+	width:17px;
+	height:14px;
+	background:url(../img/dico.png) 0 -108px no-repeat;
+}
+.product_dip .buy_choice{
+	padding-left:5px;
+	margin-bottom:7px;
+}
+.buy_choice .buy_quolity{
+	width:28px;
+	height:18px;
+	border:1px solid #dbdbdb;
+	border-radius:2px;
+	margin-right:2px;
+	text-align:center;
+	padding-top:8px;
+}
+.buy_choice .btn_quolity{
+	width:16px;
+	margin-right:8px;
+}
+.btn_quolity .quolity_add{
+	width:16px;
+	height:13px;
+	background:url(../img/dico.png) 0 -123px no-repeat;
+}
+.btn_quolity .quolity_reduce{
+	width:16px;
+	height:15px;
+	background:url(../img/dico.png) 0 -136px no-repeat;
+}
+.buy_choice .add_to_cart{
+	width:92px;
+	height:28px;
+	background-color:#ff5c4d;
+	text-align:center;
+	color:#fff;
+	line-height:28px;
+	border-radius:3px;
+}
+.product_dip .produt_judge{
+	width:200px;
+	height:18px;
+	padding-left:5px;
+	line-height:18px;
+}
+.produt_judge .judge_info{
+	width:13px;
+	height:12px;
+	margin-top:4px;
+	background:url(../img/dico.png) 0 -166px no-repeat;
+	margin-right:2px;
+	overflow:hidden;
+}
+.produt_judge span{
+	margin-right:11px;
+}
+.produt_judge .judge_good{
+	width:15px;
+	height:16px;
+	background:url(../img/dico.png) -21px 0 no-repeat;
+	margin-right:4px;
+}
+.produt_judge .good_nob{
+	color:#eb6363;
+}
+.product_dip .sold_company{
+	width:200px;
+	line-height:23px;
+	padding-left:5px;
+}
+ .search_result_dip .nomarginr{
+ 	margin-right:0;
+ }
+.search_resul_foot{
+	width:1200px;
+	height:36px;
+	margin:0 auto 10px;
+}
+.search_resul_foot .resul_foot_left{
+	padding-left:25px;
+	line-height:29px;
+}
+.resul_foot_left span{
+	margin-right:13px;
+}
+.resul_foot_left .search_result_judge{
+	padding-top:3px;
+}
+.search_result_judge .user_good{
+	padding:0 12px 0 12px;
+	line-height:28px;
+	border:1px solid #f3f3f3;
+	border-radius:3px;
+	background-color:#fafafa;
+	margin-right:10px;
+}
+.result_foot_right .search_page{
+	float:left;
+	padding:0 14px;
+	border:1px solid #f3f3f3;
+	background-color:#fafafa;
+	line-height:34px;
+	margin-right:5px;	
+}
+.result_foot_right .search_page:hover{
+	background-color:#ff8c64;
+	border-color:#f2855f;
+}
+.hot_sell{
+	width:1200px;
+	margin:0 auto;
+}
+.hot_sell .hot_sell_send{
+	width:1178px;
+	height:38px;
+	padding-left:20px;
+	color:#666;
+	line-height:38px;
+	border:1px solid #f3f3f3;
+	background-color:#fafafa;
+}
+.hot_sell .hot_type{
+	height:300px;
+	padding:10px 0 0 8px;
+	border:1px solid #f3f3f3;
+	border-top:none;
+}
+.hot_type .hot_pro_dis{
+	width:220px;
+	margin-right:20px;
+	overflow:hidden;
+}
+.hot_pro_dis .hot_pro_pic{
+	width:220px;
+	height:220px;
+	margin-bottom:10px;	
+}
+.hot_pro_pic .hot_pro_name{
+	line-height:16px;
+	margin-bottom:2px;
+}
+.hot_pro_dis .hot_pro_info{
+	width:220px;
+}
+.hot_pro_price .price_tag{
+	padding-top:5px;
+	font-size:9px;
+	line-height:20px;
+	color:#e60012;
+}
+.hot_pro_info .price_info_right{
+	font-size:9px;
+	line-height:18px;
+	color:#666;
+}
+.hot_pro_price .now_price{
+	font-size:15px;
+	line-height:25px;
+	color:#e60012;
+	padding-right:9px;
+}
+.hot_pro_info .judge_info{
+	width:13px;
+	height:12px;
+	margin-top:4px;
+	background:url(../img/dico.png) 0 -166px no-repeat;
+	margin-right:2px;
+	overflow:hidden;
+	margin-top:4px;
+}
+.hot_type .nomarginr{
+	margin-right:0;
+}
