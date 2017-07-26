@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="css/firstpage.css" />
 		<link rel="stylesheet" href="css/fixIE.css" />
 		<script src="js/html5shiv.js"></script>
+		<script src="js/jquery-3.2.0.js"></script>
+		<script src="js/index.js"></script>
 		<!--<script src="js/firebug-lite/build/firebug-lite.js" defer="defer"></script>-->
 	</head>
 	<body>
@@ -19,7 +21,7 @@
 						<div class="header_userlogin fl">Hi,请
 							<a href="">登录</a>
 							/
-							<a href="">注册</a>							
+							<a href="">注册</a>
 						</div>
 						<div class="send_to fl">
 							<div class="pp fl">送货至</div>
@@ -62,7 +64,7 @@
 							<i class="weibo fl"></i>
 							<i class="wechat fl"></i>
 						</li>
-						
+
 					</ul>
 				</div>
 			</div>
@@ -94,14 +96,14 @@
 							<a href="">护手霜</a>
 							<a href="">4K电视</a>
 							<a href="">华为p9</a>
-							<a href="">消毒液</a>							
+							<a href="">消毒液</a>
 						</div>
 					</div>
 					<div class="mainhead_right fr">
 						<i class=""></i>
 						<a href="">购物车</a>
 					</div>
-				</div>	
+				</div>
 			</div>
 			<div class="nav_border">
 					<nav class="content_nav">
@@ -228,7 +230,7 @@
 										<a href="">页游、</a>
 										<a href="">图书</a>
 									</div>
-								</li>								
+								</li>
 							</ul>
 						</div>
 						<div class="other_nav fl">
@@ -241,7 +243,7 @@
 							<a href="" class="fl">医药</a>
 							<a href="" class="fl">1号海购</a>
 							<a href="" class="fl">电器城</a>
-							
+
 						</div>
 						<div class="phone_order fr">
 							<i class="fl"></i>
@@ -251,27 +253,22 @@
 				</div>
 		</header>
 		<section class="content clearfix">
-			<div class="content_mainbg">				
+			<div class="content_mainbg">
 				<div class="content_main  marginauto clearfix">
 					<div class="main_center marginauto clearfix">
 						<div class="main_middle fl">
 							<div class="banner_pic clearfix">
-								<a href="" class="main_banner fl"></a>
-							</div>							
+								<img src="img/banner1.jpg" alt="">
+								<img src="img/banner2.jpg" alt="">
+							</div>
 							<div class="banner_fa">
 								<div class="changer_banner">
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" class="change_list fl"></a>
-									<a href="" style="background-color:#ff3c3c" class="change_list fl"></a>
+									<a href="javascript:;" class="active change_list fl"></a>
 								</div>
 							</div>
-						</div>						
+							<div class="prev"></div>
+							<div class="next"></div>
+						</div>
 						<div class="fl">
 							<div class="main_news">
 								<header class="news_title">快讯</header>
@@ -281,8 +278,8 @@
 									<div class="news_list"><strong>【优选】</strong><a href="">冬天要瘦，更要迷人好气色</a></div>
 									<div class="news_list"><strong>【优选】</strong><a href="">让礼物代表你的谢意</a></div>
 									<div class="news_list"><strong>【社区】</strong><a href="">女王说咖啡更适合做伴侣</a></div>
-									<div class="news_list"><strong>【社区】</strong><a href="">吃火锅，不来点饮料怎么行</a></div>	
-								</div>								
+									<div class="news_list"><strong>【社区】</strong><a href="">吃火锅，不来点饮料怎么行</a></div>
+								</div>
 							</div>
 							<div class="special_service">
 								<header class="special_title">一号店专享</header>
@@ -310,20 +307,20 @@
 									<div class="service_list fl">
 										<i class="service_6"></i>
 										<div class="service_try"><a href="">1号钱包</a></div>
-									</div>									
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-					
+
 			</div>
 			<div class="content_active">
 				<div class="your_active">
 					<header class="active_head">
 						<h3 class="active_title">您的专属活动</h3>
 					</header>
-					<div class="active_content">						
+					<div class="active_content">
 						<a href="" class="btn_pre fl">
 							<i></i>
 						</a>
@@ -365,14 +362,14 @@
 						<div class="buy_item">
 							<header>
 								<h6 class="buy_title"><a href="" class="">今日必团</a></h6>
-							</header>							
+							</header>
 							<div>
 								<div class="buy_info"><a href="">罗莱家纺 鸭绒被</a></div>
 								<div class="buy_tag">前50名返100元 领券再减20元</div>
 								<div class="price"><a href=""><span>¥</span>598</a></div>
 							</div>
 						</div>
-					</div>										
+					</div>
 					<ul class="cheap_product fl">
 						<li class="product_type fl">
 							<header>
@@ -382,7 +379,7 @@
 								<div class="produc_info">黑5海购价</div>
 								<div class="produt_tag marginauto"><a href="">1元疯抢</a></div>
 								<a href=""><img src="img/pic-3.jpg" alt="" /></a>
-							</div>							
+							</div>
 						</li>
 						<li class="product_type fl" style="border-right:none;">
 							<header>
@@ -397,7 +394,7 @@
 						<li class="product_type fl">
 							<header>
 								<h6 class="produc_title"><a href="">中国特产 第二份半价</a></h6>
-							</header>							
+							</header>
 							<div>
 								<div class="produc_info">第一食品 上海卤香鹅</div>
 								<div class="produt_tag marginauto"><a href="">1元疯抢</a></div>
@@ -414,7 +411,7 @@
 								<a href=""><img src="img/tpic-7.jpg" alt="" /></a>
 							</div>
 						</li>
-						
+
 					</ul>
 					<div class="super_buy fl">
 						<img src="img/pic-5.jpg" alt="" />
@@ -438,7 +435,7 @@
 							<div class="kind_pic danisl "><a href=""><img src="img/tpic-8.jpg" alt="" /></a></div>
 						</li>
 					</ul>
-				</div>				
+				</div>
 			</div>
 			<div class="active_banner"><a href=""><img src="img/pic-7.jpg" alt=""/></a></div>
 			<div class="commodity awh marginauto">
@@ -460,7 +457,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">进口零食</a>
 					</div>
-				</header>				
+				</header>
 				<div class="commodity_item clearfix">
 					<div class="commodity_list1 fl">
 							<div class="clearfix">
@@ -520,7 +517,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic-14.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="commodity awh marginauto">
 				<header class="commodity_head head">
@@ -541,7 +538,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">烘焙甜品</a>
 					</div>
-				</header>				
+				</header>
 				<div class="commodity_item clearfix">
 					<div class="commodity_list1 fl">
 						<div class="clearfix">
@@ -551,7 +548,7 @@
 							<a href="" class="commodity_type">海鲜水产</a>
 							<a href="" class="commodity_type">品质肉类</a>
 							<a href="" class="commodity_type">鲜活鸡蛋</a>
-						</div>						
+						</div>
 						<div class="hd_commodityitem fl">
 							<strong>
 								<a href="" class="hot_color">诺心Lecake</a>
@@ -601,7 +598,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic-21.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="commodity awh marginauto">
 				<header class="commodity_head head">
@@ -622,7 +619,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">糖果巧克力</a>
 					</div>
-				</header>				
+				</header>
 				<div class="commodity_item clearfix">
 					<div class="commodity_list1 fl">
 						<div class="clearfix">
@@ -631,8 +628,8 @@
 							<a href="" class="commodity_type">饼干糕点</a>
 							<a href="" class="commodity_type">水&饮料</a>
 							<a href="" class="commodity_type">牛奶乳品</a>
-							<a href="" class="commodity_type">保健滋补</a>	
-						</div>						
+							<a href="" class="commodity_type">保健滋补</a>
+						</div>
 						<div class="hd_commodityitem fl">
 							<strong>
 								<a href="" class="hot_color">比利时风味焦糖饼干</a>
@@ -682,7 +679,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic-28.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="personal_clear marginauto">
 				<header class="clear_head head">
@@ -703,7 +700,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">驱蚊驱虫</a>
 					</div>
-				</header>				
+				</header>
 				<div class="clear_item clearfix">
 					<div class="clear_list1 fl">
 						<div class="clearfix">
@@ -713,7 +710,7 @@
 							<a href="" class="clear_type fl">纸品湿巾</a>
 							<a href="" class="clear_type fl">衣物洗护</a>
 							<a href="" class="clear_type fl">家庭清洁</a>
-						</div> 
+						</div>
 						<div class="hd_clearitem fl">
 							<strong >
 								<a href="" class="sbmargin_top colorg">满299减150</a>
@@ -787,7 +784,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic-39.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="commodity awh marginauto">
 				<header class="commodity_head head">
@@ -808,7 +805,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">营养品</a>
 					</div>
-				</header>				
+				</header>
 				<div class="commodity_item clearfix">
 					<div class="commodity_list1 fl">
 						<div class="clearfix">
@@ -868,7 +865,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic46.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="commodity awh marginauto">
 				<header class="commodity_head head">
@@ -889,7 +886,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">家居收纳</a>
 					</div>
-				</header>				
+				</header>
 				<div class="commodity_item clearfix">
 					<div class="commodity_list1 fl">
 						<div class="clearfix">
@@ -898,8 +895,8 @@
 							<a href="" class="commodity_type">床上用品</a>
 							<a href="" class="commodity_type">家纺布艺</a>
 							<a href="" class="commodity_type">家装建材</a>
-							<a href="" class="commodity_type">宠物用品</a>	
-						</div>						
+							<a href="" class="commodity_type">宠物用品</a>
+						</div>
 						<div class="hd_commodityitem fl">
 							<strong>
 								<a href="" class="hot_color">森生 汽车坐垫羽绒棉</a>
@@ -949,7 +946,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic53.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="popul_commodity marginauto">
 				<header class="popul_head head">
@@ -970,7 +967,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">冲锋衣裤</a>
 					</div>
-				</header>				
+				</header>
 				<div class="popul_item clearfix">
 					<div class="popul_list1 fl">
 						<div class="fl">
@@ -981,7 +978,7 @@
 							<a href="" class="popul_type">珠宝饰品</a>
 							<a href="" class="popul_type">男女鞋靴</a>
 						</div>
-						
+
 						<div class="hd_populitem fl">
 							<a href="" class="hd_popul1 fl"><img src="img/pic54.jpg" alt="" /></a>
 							<a href="" class="hd_popul2 fl"><img src="img/pic55.jpg" alt="" /></a>
@@ -1051,7 +1048,7 @@
 							<a href="" class="list5_pic2"><img src="img/pic-66.jpg" alt=""></a>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="electronics marginauto">
 				<header class="elctro_head head">
@@ -1072,7 +1069,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">特价家电</a>
 					</div>
-				</header>				
+				</header>
 				<div class="elctro_item clearfix">
 					<div class="elctro_list1 fl">
 						<a href="" class="elctro_type">手机</a>
@@ -1122,7 +1119,7 @@
 							<a href="" class="list4_pic"><img src="img/pic-73.jpg" alt=""></a>
 							<a href="" class="list4_title">先锋取暖器 13片直板电热油汀</a>
 							<div class="price_tag">¥328</div>
-							
+
 						</li>
 					</ul>
 					<ul class="elctro_disp fl">
@@ -1157,7 +1154,7 @@
 							<div class="price_tag price_mb">¥2880</div>
 						</li>
 					</ul>
-				</div>			
+				</div>
 			</div>
 			<div class="groupbuy awh marginauto marginb">
 				<header class="groupbuy_head head">
@@ -1177,7 +1174,7 @@
 						<span class="line fl"></span>
 						<a href="" class="fl">生活电器</a>
 					</div>
-				</header>				
+				</header>
 				<div class="groupbuy_item clearfix">
 					<div class="groupbuy_list1 fl">
 						<a href="" class="groupbuy_type">进口食品</a>
@@ -1265,9 +1262,9 @@
 								<span class="colorred tag">1029</span><span class="tag">人已购买</span>
 							</div>
 						</li>
-						
+
 					</ul>
-				</div>				
+				</div>
 			</div>
 			<div class="fast_buy marginauto clearfix">
 					<header class="fast_head">
@@ -1286,11 +1283,11 @@
 								<div class="triangle"></div>
 							</div>
 						</div>
-						<div class="fasth_right fr">品牌点亮生活，每天十点上新</div>						
+						<div class="fasth_right fr">品牌点亮生活，每天十点上新</div>
 					</header>
 					<ul class="fast_content">
 						<li class="fastlis1 fl">
-							<a href=""><img src="img/pic-89.jpg" alt=""/></a>							
+							<a href=""><img src="img/pic-89.jpg" alt=""/></a>
 						</li>
 						<li class="fastlist fl">
 							<a href=""><img src="img/pic-90.jpg" alt=""/></a>
@@ -1454,7 +1451,7 @@
 					<a href="">互联网药品信息服务资格证</a>
 					<span class="line"></span>
 					<a href="">互联网药品交易服务资格证</a>
-					<span class="line"></span>					
+					<span class="line"></span>
 				</div>
 				<div class="copy_info">
 					<span>Copyright@1号店网上超市 2007-2016,All Rights Reserved</span>
@@ -1468,7 +1465,7 @@
 					</a>
 					<a href="">
 						<img src="img/pic-98.jpg" alt="" />
-					</a> 
+					</a>
 					<a href="">
 						<img src="img/pic-99.jpg" alt="" />
 					</a>
@@ -1489,7 +1486,7 @@
 					</a>
 				</div>
 			</div>
-			
+
 		</footer>
 		<aside class="sidebar">
 			<div class="shopping_cart">
@@ -1499,12 +1496,12 @@
 			<div class="shopping_list">
 				<a href=""><i class="shopping_item"></i></a>
 				<a href=""><i class="shopping_other"></i></a>
-				<a href=""><i class="shopping_collo"></i></a>				
+				<a href=""><i class="shopping_collo"></i></a>
 			</div>
 			<div class="other_service">
 				<a href=""><i class="write"></i></a>
 				<a href=""><i class="scan"></i></a>
-				<a href=""><i class="togotop"></i></a>				
+				<a href=""><i class="togotop"></i></a>
 			</div>
 		</aside>
 	</body>
